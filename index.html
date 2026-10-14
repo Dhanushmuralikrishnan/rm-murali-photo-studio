@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="RM Murali Photo Studio, Denkanikottai — wedding, portrait, family and event photography.">
+<title>RM Murali Photo Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="home">
+  <a class="logo" href="#home" aria-label="RM Murali Photo Studio home">
+    <span class="camera">📸</span><span class="logotype"><b><i>RM</i> MURALI</b><strong>PHOTO STUDIO</strong><small>Capturing Your Special Moments</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="whatsapp" href="https://wa.me/919976698692" target="_blank" rel="noopener"><span class="wa">◉</span><span>Book on WhatsApp<strong>9976698692</strong></span></a>
+</header>
+
+<main>
+  <section class="hero" aria-label="Wedding photography banner">
+    <img src="images/hero-reference.jpg" alt="Wedding couple and Moments Made Forever banner">
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="gallery-top">
+      <div class="heading"><p>OUR GALLERY</p><h1>Recent Works</h1></div>
+      <p class="gallery-note">A selection of moments, people and celebrations.</p>
+    </div>
+    <div class="filter-row" role="group" aria-label="Gallery categories">
+      <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter" data-filter="wedding" aria-pressed="false">Wedding</button>
+      <button class="filter" data-filter="portrait" aria-pressed="false">Portrait</button>
+      <button class="filter" data-filter="events" aria-pressed="false">Events</button>
+      <button class="filter" data-filter="albums" aria-pressed="false">Albums</button>
+      <button class="filter" data-filter="editing" aria-pressed="false">Editing</button>
+    </div>
+    <div class="grid">
+      <button class="tile" data-category="wedding" aria-label="Wedding photography"><img src="images/wedding.jpg" alt="Wedding"><span class="tile-caption">Wedding</span></button>
+      <button class="tile" data-category="editing" aria-label="Photo editing"><img src="images/photo-editing.jpg" alt="Photo editing portrait"><span class="tile-caption">Photo Editing</span></button>
+      <button class="tile" data-category="portrait" aria-label="Creative portrait"><img src="images/creative-portrait.jpg" alt="Creative portrait"><span class="tile-caption">Creative Portrait</span></button>
+      <button class="tile" data-category="portrait" aria-label="Traditional portrait"><img src="images/traditional-portrait.jpg" alt="Traditional portrait"><span class="tile-caption">Traditional Portrait</span></button>
+      <button class="tile" data-category="events" aria-label="Little moments"><img src="images/little-moments.jpg" alt="Little moments"><span class="tile-caption">Little Moments</span></button>
+      <button class="tile" data-category="portrait" aria-label="Baby portrait"><img src="images/baby-portrait.jpg" alt="Baby portrait"><span class="tile-caption">Baby Portrait</span></button>
+      <button class="tile" data-category="albums" aria-label="Family portrait"><img src="images/family-portrait.jpg" alt="Family portrait"><span class="tile-caption">Family Portrait</span></button>
+      <button class="tile" data-category="events" aria-label="Special memories"><img src="images/special-memories.jpg" alt="Family special memories"><span class="tile-caption">Special Memories</span></button>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="section-title"><p>WHAT WE DO</p><h2>Photography for Every Special Moment</h2></div>
+    <div class="service-list">
+      <article><span>💍</span><h3>Wedding Photography</h3><p>Beautifully captured celebrations and traditions.</p></article>
+      <article><span>📸</span><h3>Portrait Photography</h3><p>Creative, traditional and family portraits.</p></article>
+      <article><span>🎉</span><h3>Events & Memories</h3><p>Keep your important moments close forever.</p></article>
+      <article><span>🖼️</span><h3>Albums & Editing</h3><p>Photo finishing and album design.</p></article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-icon">📷</div><div><p class="kicker">ABOUT OUR STUDIO</p><h2>Little details. Big memories.</h2><p>RM Murali Photo Studio captures the smiles, traditions and moments that make your story unique. Contact us to discuss your photography needs.</p></div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="cta-camera">📸</div>
+    <div class="cta-title"><p>Let’s Capture Your</p><h2>Special Moments</h2></div>
+    <a class="cta-feature" href="https://wa.me/919976698692" target="_blank" rel="noopener"><span>▦</span><b>Book Your<br>Session Today</b></a>
+    <div class="cta-feature"><span>◎</span><b>Professional<br>Quality</b></div>
+    <div class="cta-feature"><span>♥</span><b>Memories That<br>Last Forever</b></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div><b>RM MURALI PHOTO STUDIO</b><p>Capturing Your Special Moments</p></div>
+  <div><p>📍 Chowdappa Complex, Checkpost Road,<br>Denkanikottai – 635107</p></div>
+  <div><p>☎ <a href="tel:9159129749">9159129749</a><br>✉ <a href="mailto:rmmmuralireporter@gmail.com">rmmmuralireporter@gmail.com</a></p></div>
+  <div><a class="footer-wa" href="https://wa.me/919976698692" target="_blank" rel="noopener">WhatsApp: 9976698692</a><small>© <span id="year"></span> RM Murali Photo Studio</small></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
